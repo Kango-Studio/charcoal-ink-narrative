@@ -68,7 +68,7 @@ const Header = () => {
                   {item.name}
                 </a>
               ))}
-              <Button variant="default" className="mt-4 elegant-card">
+              <Button variant="default" className="my-4 elegant-card text-white">
                 Agendar Sessão
               </Button>
             </nav>
