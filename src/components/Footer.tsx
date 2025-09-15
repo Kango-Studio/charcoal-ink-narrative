@@ -1,5 +1,6 @@
 import { Instagram, Mail, Phone, MapPin } from 'lucide-react';
 import { Button } from '@/components/ui/button';
+import logo from '../../public/logo-bg-remove.png';
 
 const Footer = () => {
   return (
@@ -9,10 +10,9 @@ const Footer = () => {
           {/* Brand */}
           <div className="space-y-4">
             <div className="flex items-center space-x-2">
-              <div className="font-display text-3xl font-bold text-gradient">
-                CloveR
-              </div>
-              <div className="text-sm text-muted-foreground">Studio</div>
+              <a href="/">
+                <img src={logo} alt="Clover Tattoo Studio" className="w-20 h-20" />
+              </a>
             </div>
             <p className="text-muted-foreground leading-relaxed">
               Arte que transcende a pele. Criando memórias eternas através da tatuagem.
