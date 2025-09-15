@@ -16,7 +16,7 @@ const Hero = () => {
       </div>
 
       {/* Content */}
-      <div className="relative z-10 container mx-auto px-4 text-center">
+      <div className="relative z-10 container mx-auto mt-6 md:mt-0 px-4 text-center">
         <div className="max-w-4xl mx-auto animate-fade-in">
           {/* Tagline */}
           <div className="inline-flex items-center px-4 py-2 rounded-full border border-border/50 bg-card/50 backdrop-blur-sm mb-8">
