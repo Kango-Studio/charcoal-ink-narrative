@@ -56,44 +56,44 @@ const Footer = () => {
 
           {/* Brasil Studio */}
           <div>
-            <h3 className="font-bold mb-4">Estúdio Brasil</h3>
+            <h3 className="font-bold mb-4">Estúdio Gravataí</h3>
             <ul className="space-y-2 text-sm">
               <li className="flex items-start space-x-2">
                 <MapPin className="h-4 w-4 mt-0.5 text-muted-foreground" />
                 <span className="text-muted-foreground">
-                  Rua das Artes, 123<br />
-                  Vila Madalena - São Paulo
+                  Rua João Maria da Fonseca, 53<br />
+                  Gravataí - Rio Grande do Sul
                 </span>
               </li>
               <li className="flex items-center space-x-2">
                 <Phone className="h-4 w-4 text-muted-foreground" />
-                <span className="text-muted-foreground">+55 (11) 99999-9999</span>
+                <span className="text-muted-foreground">+55 (51) 99141-5464</span>
               </li>
               <li className="flex items-center space-x-2">
                 <Mail className="h-4 w-4 text-muted-foreground" />
-                <span className="text-muted-foreground">brasil@cloverstudio.com</span>
+                <span className="text-muted-foreground">contato.clovertattoo2@gmail.com</span>
               </li>
             </ul>
           </div>
 
           {/* USA Studio */}
           <div>
-            <h3 className="font-bold mb-4">Estúdio EUA</h3>
+            <h3 className="font-bold mb-4">Estúdio Canoas</h3>
             <ul className="space-y-2 text-sm">
               <li className="flex items-start space-x-2">
                 <MapPin className="h-4 w-4 mt-0.5 text-muted-foreground" />
                 <span className="text-muted-foreground">
-                  Times Square<br />
-                  Manhattan - New York
+                  Rua Dr Barcelos, 107<br />
+                  Canoas - Rio Grande do Sul
                 </span>
               </li>
               <li className="flex items-center space-x-2">
                 <Phone className="h-4 w-4 text-muted-foreground" />
-                <span className="text-muted-foreground">+1 (212) 555-0123</span>
+                <span className="text-muted-foreground">+55 (51) 99141-5464</span>
               </li>
               <li className="flex items-center space-x-2">
                 <Mail className="h-4 w-4 text-muted-foreground" />
-                <span className="text-muted-foreground">usa@cloverstudio.com</span>
+                <span className="text-muted-foreground">contato.clovertattoo2@gmail.com</span>
               </li>
             </ul>
           </div>
@@ -103,10 +103,10 @@ const Footer = () => {
         <div className="border-t border-border pt-8 mt-8">
           <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
             <p className="text-sm text-muted-foreground">
-              © 2024 CloveR Studio. Todos os direitos reservados.
+              © 2025 Clover Tattoo Studio. Todos os direitos reservados.
             </p>
             <div className="flex items-center space-x-2 text-sm text-muted-foreground">
-              <span>Siga @clovertattooart</span>
+              <span>Siga @clovertattoart</span>
             </div>
           </div>
         </div>
@@ -116,7 +116,7 @@ const Footer = () => {
           <blockquote className="text-lg font-light text-muted-foreground font-display italic">
             "Não desiste, vai atrás do teu sonho! É infinito o que tu podes fazer, só não podemos desistir."
           </blockquote>
-          <cite className="text-sm text-muted-foreground mt-2 block">— Pedro Victor CloveR</cite>
+          <cite className="text-sm text-muted-foreground mt-2 block">— Pedro Victor Clover</cite>
         </div>
       </div>
     </footer>

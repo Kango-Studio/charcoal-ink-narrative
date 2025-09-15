@@ -15,8 +15,8 @@ const Historia = () => {
     },
     {
       year: '2023',
-      title: 'Expansão para os EUA',
-      description: 'Abriu uma agência para tatuar nos EUA. Em menos de 24 horas, a agenda ficou lotada.',
+      title: 'Duas Unidades',
+      description: 'Atualmente tem duas unidades, uma no Gravatai outra em Canoas. E ja atendem mais de 30 mil clientes.',
     },
   ];
 
@@ -28,8 +28,8 @@ const Historia = () => {
             Minha História
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
-            "Me chamo Pedro Victor, mas todos me conhecem como <strong>CloveR</strong>. 
-            CloveR foi criado para ser o nome dos estúdios, hoje se tornou uma marca... e meu nome."
+            "Me chamo Pedro Victor, mas todos me conhecem como <strong>Clover</strong>. 
+            Clover foi criado para ser o nome dos estúdios, hoje se tornou uma marca... e meu nome."
           </p>
         </div>
 
@@ -73,14 +73,14 @@ const Historia = () => {
             <blockquote className="text-2xl md:text-3xl font-light text-foreground mb-4 font-display italic">
               "A tatuagem mudou a minha vida! Com a tatuagem eu crio memórias eternas e é essa experiência que eu passo a cada cliente. Pois cada tatuagem é uma história."
             </blockquote>
-            <cite className="text-muted-foreground">— Pedro Victor CloveR</cite>
+            <cite className="text-muted-foreground">— Pedro Victor Clover</cite>
           </Card>
         </div>
 
         {/* Achievements */}
         <div className="mt-16 grid md:grid-cols-3 gap-8 animate-fade-in">
           <Card className="ink-card p-6 text-center hover-glow">
-            <h3 className="text-2xl font-bold text-gradient mb-2">20k+</h3>
+            <h3 className="text-2xl font-bold text-gradient mb-2">30k+</h3>
             <p className="text-muted-foreground">Clientes atendidos em nossas unidades</p>
           </Card>
           <Card className="ink-card p-6 text-center hover-glow">

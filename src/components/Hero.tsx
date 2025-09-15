@@ -21,7 +21,7 @@ const Hero = () => {
           {/* Tagline */}
           <div className="inline-flex items-center px-4 py-2 rounded-full border border-border/50 bg-card/50 backdrop-blur-sm mb-8">
             <span className="text-sm font-medium text-muted-foreground">
-              + de 20 mil clientes atendidos
+              + de 30 mil clientes atendidos
             </span>
           </div>
 
@@ -36,15 +36,14 @@ const Hero = () => {
 
           {/* Subtitle */}
           <p className="text-xl md:text-2xl text-muted-foreground mb-8 max-w-2xl mx-auto leading-relaxed animate-slide-up">
-            Fechamentos incríveis em 3 horas. Do Brasil aos EUA, 
-            criando memórias eternas através da arte da tatuagem.
+            Fechamentos incríveis em 3 horas. Criando memórias eternas através da arte da tatuagem.
           </p>
 
           {/* CTAs */}
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center animate-scale-in">
             <Button 
               size="lg" 
-              className="elegant-card hover-glow text-lg px-8 py-4 group"
+              className="elegant-card hover-glow text-lg px-8 py-4 group text-white"
             >
               Agendar Sessão
               <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
@@ -61,7 +60,7 @@ const Hero = () => {
           </div>
 
           {/* Stats */}
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-8 mt-16 animate-fade-in">
+          <div className="grid grid-cols-2 md:grid-cols-3 gap-8 mt-16 animate-fade-in">
             <div className="text-center">
               <div className="text-3xl md:text-4xl font-bold text-gradient mb-2">10+</div>
               <div className="text-sm text-muted-foreground">Anos de experiência</div>
@@ -70,10 +69,10 @@ const Hero = () => {
               <div className="text-3xl md:text-4xl font-bold text-gradient mb-2">20k+</div>
               <div className="text-sm text-muted-foreground">Clientes atendidos</div>
             </div>
-            <div className="text-center">
+            {/* <div className="text-center">
               <div className="text-3xl md:text-4xl font-bold text-gradient mb-2">2</div>
               <div className="text-sm text-muted-foreground">Estúdios internacionais</div>
-            </div>
+            </div> */}
             <div className="text-center">
               <div className="text-3xl md:text-4xl font-bold text-gradient mb-2">3h</div>
               <div className="text-sm text-muted-foreground">Fechamentos incríveis</div>

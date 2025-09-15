@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { Menu, X } from 'lucide-react';
 import { Button } from '@/components/ui/button';
+import logo from '../../public/logo-bg-remove.png';
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -16,13 +17,12 @@ const Header = () => {
   return (
     <header className="fixed top-0 left-0 right-0 z-50 backdrop-blur-md bg-background/80 border-b border-border">
       <div className="container mx-auto px-4">
-        <div className="flex items-center justify-between h-16">
+        <div className="flex items-center justify-between h-24">
           {/* Logo */}
           <div className="flex items-center space-x-2">
-            <div className="font-display text-2xl font-bold text-gradient">
-              CloveR
-            </div>
-            <div className="text-sm text-muted-foreground">Studio</div>
+            <a href="/">
+              <img src={logo} alt="Clover Studio" className="w-20 h-20" />
+            </a>
           </div>
 
           {/* Desktop Navigation */}
@@ -40,7 +40,7 @@ const Header = () => {
 
           {/* CTA Button */}
           <div className="hidden md:block">
-            <Button variant="default" className="elegant-card hover-glow">
+            <Button variant="default" className="elegant-card hover-glow text-white">
               Agendar Sessão
             </Button>
           </div>

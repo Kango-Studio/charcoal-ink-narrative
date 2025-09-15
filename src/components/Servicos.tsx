@@ -119,7 +119,7 @@ const Servicos = () => {
             <p className="text-muted-foreground mb-6">
               Vamos criar juntos uma obra única que conte sua história.
             </p>
-            <Button size="lg" className="elegant-card hover-glow">
+            <Button size="lg" className="elegant-card hover-glow text-white">
               Agendar Consulta
             </Button>
           </Card>

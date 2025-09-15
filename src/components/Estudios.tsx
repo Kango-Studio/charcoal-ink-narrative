@@ -7,14 +7,14 @@ import studioUSA from '@/assets/studio-usa.jpg';
 const Estudios = () => {
   const studios = [
     {
-      name: 'CloveR Studio Brasil',
-      location: 'São Paulo, Brasil',
+      name: 'Clover Tattoo Studio Gravataí',
+      location: 'Gravataí, Rio Grande do Sul',
       image: studioBrazil,
-      address: 'Rua das Artes, 123 - Vila Madalena',
+      address: 'Rua João Maria da Fonseca, 53 - Gravataí',
       hours: 'Seg - Sáb: 9h às 18h',
-      phone: '+55 (11) 99999-9999',
-      email: 'brasil@cloverstudio.com',
-      description: 'Nosso estúdio principal no Brasil, onde tudo começou. Um ambiente acolhedor e profissional no coração de São Paulo.',
+      phone: '+55 (51) 99141-5464',
+      email: 'contato.clovertattoo2@gmail.com',
+      description: 'Nosso estúdio principal em Gravataí, onde tudo começou. Um ambiente acolhedor e profissional no coração de Gravataí.',
       features: [
         'Estúdio principal e matriz',
         'Equipamentos de última geração',
@@ -24,20 +24,20 @@ const Estudios = () => {
       ],
     },
     {
-      name: 'CloveR Studio USA',
-      location: 'New York, EUA',
+      name: 'Clover Tattoo Studio Canoas',
+      location: 'Canoas, Rio Grande do Sul',
       image: studioUSA,
-      address: 'Times Square, Manhattan - New York',
-      hours: 'Mon - Sat: 10am to 7pm',
-      phone: '+1 (212) 555-0123',
-      email: 'usa@cloverstudio.com',
-      description: 'Nossa expansão internacional no coração de Nova York. Em menos de 24 horas de abertura, a agenda ficou lotada.',
+      address: 'Rua Dr Barcelos, 107, Canoas - Rio Grande do Sul',
+      hours: 'Seg - Sáb: 9h às 18h',
+      phone: '+55 (51) 99141-5464',
+      email: 'contato.clovertattoo2@gmail.com',
+      description: 'Nossa expansão para Canoas.',
       features: [
-        'Localização premium em Manhattan',
-        'Estúdio moderno e sofisticado',
-        'Atendimento internacional',
-        'Clientes do mundo todo',
-        'Padrão americano de qualidade',
+        'Estúdio principal e matriz',
+        'Equipamentos de última geração',
+        'Ambiente climatizado',
+        'Sala de espera confortável',
+        'Certificação ANVISA',
       ],
     },
   ];
@@ -115,7 +115,7 @@ const Estudios = () => {
                     </div>
                   </div>
 
-                  <Button className="w-full elegant-card hover-glow">
+                  <Button className="w-full elegant-card hover-glow text-white">
                     Agendar neste estúdio
                   </Button>
                 </Card>
